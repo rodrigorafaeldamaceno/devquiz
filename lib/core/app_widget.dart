@@ -7,7 +7,9 @@ class AppWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: "DevQuiz",
-      home: Scaffold(),
+      home: Scaffold(
+        appBar: AppBar(),
+      ),
     );
   }
 }
