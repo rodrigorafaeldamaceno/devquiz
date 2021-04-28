@@ -1,3 +1,4 @@
+import 'package:devquiz/pages/home/home_page.dart';
 import 'package:devquiz/pages/splash/splash_page.dart';
 import 'package:flutter/material.dart';
 
@@ -12,10 +13,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'devQuiz',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: SplashPage(),
+      home: HomePage(),
     );
   }
 }
